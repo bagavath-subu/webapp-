@@ -1,0 +1,137 @@
+body{
+	/*background-size: cover;
+	background-image: url(../images/03.png);
+	background-repeat: no-repeat;
+	background-position: top;*/
+    background: radial-gradient(#ccccff,#000000);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+h1{
+	font: 70px Tahoma, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+color: #222;
+text-shadow: 0px 2px 3px #555;
+}
+
+form {
+    border: 0px solid #f1f1f1;
+    font-size: 20px;
+    color: #222;
+     text-shadow: 0px 2px 3px #555;
+    padding: 50px 60px;
+	margin-top: 10vh;
+	margin-left: 30%;
+	margin-right: 30%;
+    margin-top: 10vh;
+	-webkit-box-shadow: 0px 0px 46px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 46px 11px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 46px 11px rgba(0,0,0,0.75);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.button1{
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     background-color: #333;
+      overflow: hidden;
+    border: 1px solid #555;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+} 
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+     display: inline;
+     float: left;
+}
+
+li:last-child {
+    border-bottom: none;
+} 
+a {
+    color: white;
+    display: block;
+    padding: 8px;
+    background-color: #333;
+} 
+li a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+li a:hover {
+    background-color: #555;
+    color: white;
+} 
+.active {
+    background-color: #4CAF50;
+    color: white;
+} 
+table{
+    background-color: white;
+     width:100%;
+  table-layout: fixed;
+}
+select{
+margin-top: 10px
+
+}
